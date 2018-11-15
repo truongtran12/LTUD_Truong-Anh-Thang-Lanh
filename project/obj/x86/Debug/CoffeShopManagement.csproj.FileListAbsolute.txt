@@ -1,0 +1,185 @@
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.frmAdAccount.resources
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.frmAddFood.resources
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.Block.resources
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.ChangePersional.resources
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.frmAdCategory.resources
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.frmAdFood.resources
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.frmAdTables.resources
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.frmLogin.resources
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.frmMain.resources
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.frmPay.resources
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.PlusTable.resources
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.Properties.Resources.resources
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.ReFood.resources
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.ReplaceTable.resources
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\CoffeShopManagement.csproj.GenerateResource.Cache
+C:\Users\user\Google Drive\Aplication\project\project\bin\Debug\project.exe.config
+C:\Users\user\Google Drive\Aplication\project\project\bin\Debug\QL_QUANCAFE.sdf
+C:\Users\user\Google Drive\Aplication\project\project\bin\Debug\project.exe
+C:\Users\user\Google Drive\Aplication\project\project\bin\Debug\project.pdb
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.exe
+C:\Users\user\Google Drive\Aplication\project\project\obj\x86\Debug\project.pdb
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\bin\Debug\QL_QUANCAFE.sdf
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\bin\Debug\project.exe.config
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\bin\Debug\project.exe
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\bin\Debug\project.pdb
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.frmAdAccount.resources
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.frmAddFood.resources
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.Block.resources
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.ChangePersional.resources
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.frmAdCategory.resources
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.frmAdFood.resources
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.frmAdTables.resources
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.frmLogin.resources
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.frmMain.resources
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.frmPay.resources
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.PlusTable.resources
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.Properties.Resources.resources
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.ReFood.resources
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.ReplaceTable.resources
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\CoffeShopManagement.csproj.GenerateResource.Cache
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.exe
+C:\Users\user\Google Drive\HKII_II\Aplication\project\project\obj\x86\Debug\project.pdb
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\bin\Debug\QL_QUANCAFE.sdf
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\bin\Debug\project.exe.config
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\bin\Debug\project.exe
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\bin\Debug\project.pdb
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\bin\Debug\Interop.WMPLib.dll
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\CoffeShopManagement.csproj.ResolveComReference.cache
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.frmAdAccount.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.frmAddFood.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.Block.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.ChangePersional.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.frmAdCategory.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.frmAdFood.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.frmAdTables.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.frmLogin.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.frmMain.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.frmPay.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.PlusTable.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.Properties.Resources.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.ReFood.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.ReplaceTable.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\CoffeShopManagement.csproj.GenerateResource.Cache
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.exe
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\project\project\obj\x86\Debug\project.pdb
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\project.exe.config
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\CoffeShopManagement.csproj.ResolveComReference.cache
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\QL_QUANCAFE.sdf
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\project.exe
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\project.pdb
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\Interop.WMPLib.dll
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\CoffeShopManagement.csprojResolveAssemblyReference.cache
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.frmAdAccount.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.frmAddFood.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.Block.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.ChangePersional.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.frmAdCategory.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.frmAdFood.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.frmAdTables.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.frmLogin.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.frmMain.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.frmPay.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.PlusTable.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.Properties.Resources.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.ReFood.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.ReplaceTable.resources
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\CoffeShopManagement.csproj.GenerateResource.Cache
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.exe
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\project.pdb
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\Microsoft.Synchronization.Data.dll
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\Microsoft.Synchronization.Data.Server.dll
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\Microsoft.Synchronization.Data.SqlServerCe.dll
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\Microsoft.Synchronization.dll
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\Microsoft.Synchronization.xml
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\Microsoft.Synchronization.Data.xml
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\Microsoft.Synchronization.Data.Server.xml
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\Microsoft.Synchronization.Data.SqlServerCe.xml
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\CoffeShopManagement.csproj.CoreCompileInputs.cache
+C:\Users\user\Google Drive\HK 2 năm 2\Lập trình Ứng Dụng\DoAn\project\obj\x86\Debug\CoffeShopManagement.csproj.CopyComplete
+D:\DoAn\project\obj\x86\Debug\CoffeShopManagement.csprojResolveAssemblyReference.cache
+D:\DoAn\project\obj\x86\Debug\Interop.WMPLib.dll
+D:\DoAn\project\obj\x86\Debug\AxInterop.WMPLib.dll
+D:\DoAn\project\obj\x86\Debug\CoffeShopManagement.csproj.ResolveComReference.cache
+D:\DoAn\project\obj\x86\Debug\project.frmAdAccount.resources
+D:\DoAn\project\obj\x86\Debug\project.frmAddFood.resources
+D:\DoAn\project\obj\x86\Debug\project.Block.resources
+D:\DoAn\project\obj\x86\Debug\project.ChangePersional.resources
+D:\DoAn\project\obj\x86\Debug\project.frmAdCategory.resources
+D:\DoAn\project\obj\x86\Debug\project.frmAdFood.resources
+D:\DoAn\project\obj\x86\Debug\project.frmAdTables.resources
+D:\DoAn\project\obj\x86\Debug\project.frmLogin.resources
+D:\DoAn\project\obj\x86\Debug\project.frmMain.resources
+D:\DoAn\project\obj\x86\Debug\project.frmPay.resources
+D:\DoAn\project\obj\x86\Debug\project.PlusTable.resources
+D:\DoAn\project\obj\x86\Debug\project.Properties.Resources.resources
+D:\DoAn\project\obj\x86\Debug\project.ReFood.resources
+D:\DoAn\project\obj\x86\Debug\project.ReplaceTable.resources
+D:\DoAn\project\obj\x86\Debug\CoffeShopManagement.csproj.GenerateResource.Cache
+D:\DoAn\project\bin\Debug\project.exe.config
+D:\DoAn\project\bin\Debug\project.exe
+D:\DoAn\project\bin\Debug\project.pdb
+D:\DoAn\project\bin\Debug\Interop.WMPLib.dll
+D:\DoAn\project\bin\Debug\AxInterop.WMPLib.dll
+D:\DoAn\project\obj\x86\Debug\project.exe
+D:\DoAn\project\obj\x86\Debug\project.pdb
+C:\Users\truong\Desktop\DoAn\project\bin\Debug\project.exe.config
+C:\Users\truong\Desktop\DoAn\project\bin\Debug\project.exe
+C:\Users\truong\Desktop\DoAn\project\bin\Debug\project.pdb
+C:\Users\truong\Desktop\DoAn\project\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\truong\Desktop\DoAn\project\bin\Debug\Interop.WMPLib.dll
+C:\Users\truong\Desktop\DoAn\project\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\CoffeShopManagement.csprojAssemblyReference.cache
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\CoffeShopManagement.csproj.ResolveComReference.cache
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.frmAdAccount.resources
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.frmAddFood.resources
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.Block.resources
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.ChangePersional.resources
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.frmAdCategory.resources
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.frmAdFood.resources
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.frmAdTables.resources
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.frmLogin.resources
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.frmMain.resources
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.frmPay.resources
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.PlusTable.resources
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.Properties.Resources.resources
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.ReFood.resources
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.ReplaceTable.resources
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\CoffeShopManagement.csproj.GenerateResource.cache
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\CoffeShopManagement.csproj.CoreCompileInputs.cache
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\CoffeShopManagement.csproj.CopyComplete
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.exe
+C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.pdb
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\CoffeShopManagement.csprojAssemblyReference.cache
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\CoffeShopManagement.csproj.ResolveComReference.cache
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmAdAccount.resources
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmAddFood.resources
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.Block.resources
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.ChangePersional.resources
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmAdCategory.resources
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmAdFood.resources
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmAdTables.resources
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmLogin.resources
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmMain.resources
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmPay.resources
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.PlusTable.resources
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.Properties.Resources.resources
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.ReFood.resources
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.ReplaceTable.resources
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\CoffeShopManagement.csproj.GenerateResource.cache
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\CoffeShopManagement.csproj.CoreCompileInputs.cache
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.exe
+C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.pdb
