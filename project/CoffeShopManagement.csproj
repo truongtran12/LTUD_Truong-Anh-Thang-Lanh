@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>project</RootNamespace>
     <AssemblyName>project</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -97,6 +97,7 @@
     <Compile Include="ChangePersional.Designer.cs">
       <DependentUpon>ChangePersional.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataProvider.cs" />
     <Compile Include="frmAdCategory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +140,7 @@
     <Compile Include="PlusTable.Designer.cs">
       <DependentUpon>PlusTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReFood.cs">
       <SubType>Form</SubType>

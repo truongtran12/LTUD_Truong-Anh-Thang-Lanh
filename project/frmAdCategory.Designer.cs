@@ -53,6 +53,7 @@
             this.dgvResult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvResult.Name = "dgvResult";
             this.dgvResult.RowTemplate.Height = 24;
+            this.dgvResult.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvResult_CellContentClick);
             // 
             // groupBox1
             // 
@@ -100,6 +101,7 @@
             // 
             resources.ApplyResources(this.lblText, "lblText");
             this.lblText.Name = "lblText";
+            this.lblText.Click += new System.EventHandler(this.lblText_Click);
             // 
             // btnDelete
             // 
@@ -107,6 +109,7 @@
             this.btnDelete.BackColor = System.Drawing.Color.Silver;
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnEdit
             // 
@@ -114,6 +117,7 @@
             this.btnEdit.BackColor = System.Drawing.Color.Silver;
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // txtName
             // 
@@ -127,6 +131,7 @@
             this.btnSave.BackColor = System.Drawing.Color.Silver;
             this.btnSave.Name = "btnSave";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // frmAdCategory
             // 
@@ -141,6 +146,7 @@
             this.Name = "frmAdCategory";
             this.ShowInTaskbar = false;
             this.TopMost = true;
+            this.Load += new System.EventHandler(this.frmAdCategory_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvResult)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

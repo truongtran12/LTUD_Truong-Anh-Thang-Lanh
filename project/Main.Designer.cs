@@ -175,8 +175,8 @@
             // tmiPersonalInfor
             // 
             this.tmiPersonalInfor.Name = "tmiPersonalInfor";
-            this.tmiPersonalInfor.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.I)));
+            this.tmiPersonalInfor.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
+                        | System.Windows.Forms.Keys.I)));
             this.tmiPersonalInfor.Size = new System.Drawing.Size(254, 22);
             this.tmiPersonalInfor.Text = "Personal information";
             // 
@@ -188,8 +188,8 @@
             // tmiHistory
             // 
             this.tmiHistory.Name = "tmiHistory";
-            this.tmiHistory.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.H)));
+            this.tmiHistory.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
+                        | System.Windows.Forms.Keys.H)));
             this.tmiHistory.Size = new System.Drawing.Size(254, 22);
             this.tmiHistory.Text = "Access history";
             // 
@@ -201,10 +201,11 @@
             // tmiChange
             // 
             this.tmiChange.Name = "tmiChange";
-            this.tmiChange.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.C)));
+            this.tmiChange.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
+                        | System.Windows.Forms.Keys.C)));
             this.tmiChange.Size = new System.Drawing.Size(246, 22);
             this.tmiChange.Text = "Thay đổi thông tin";
+            this.tmiChange.Click += new System.EventHandler(this.tmiChange_Click);
             // 
             // toolStripSeparator3
             // 
@@ -214,10 +215,11 @@
             // tmiSleep
             // 
             this.tmiSleep.Name = "tmiSleep";
-            this.tmiSleep.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.S)));
+            this.tmiSleep.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
+                        | System.Windows.Forms.Keys.S)));
             this.tmiSleep.Size = new System.Drawing.Size(246, 22);
             this.tmiSleep.Text = "Đi ngủ";
+            this.tmiSleep.Click += new System.EventHandler(this.btnBlock_Click);
             // 
             // toolStripSeparator4
             // 
@@ -227,10 +229,11 @@
             // tmiLogout
             // 
             this.tmiLogout.Name = "tmiLogout";
-            this.tmiLogout.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.L)));
+            this.tmiLogout.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
+                        | System.Windows.Forms.Keys.L)));
             this.tmiLogout.Size = new System.Drawing.Size(246, 22);
             this.tmiLogout.Text = "Đăng xuất";
+            this.tmiLogout.Click += new System.EventHandler(this.tmiLogout_Click);
             // 
             // tmiAdmin
             // 
@@ -253,6 +256,7 @@
             this.tmiCategory.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
             this.tmiCategory.Size = new System.Drawing.Size(223, 22);
             this.tmiCategory.Text = "Danh mục";
+            this.tmiCategory.Click += new System.EventHandler(this.tmiCategory_Click);
             // 
             // toolStripSeparator10
             // 
@@ -265,6 +269,7 @@
             this.tmiFood.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
             this.tmiFood.Size = new System.Drawing.Size(223, 22);
             this.tmiFood.Text = "Danh sách món";
+            this.tmiFood.Click += new System.EventHandler(this.tmiFood_Click);
             // 
             // toolStripSeparator11
             // 
@@ -277,6 +282,7 @@
             this.tmiTable.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
             this.tmiTable.Size = new System.Drawing.Size(223, 22);
             this.tmiTable.Text = "Danh sách bàn";
+            this.tmiTable.Click += new System.EventHandler(this.tmiTable_Click);
             // 
             // toolStripSeparator12
             // 
@@ -289,12 +295,13 @@
             this.tmiAccount.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
             this.tmiAccount.Size = new System.Drawing.Size(223, 22);
             this.tmiAccount.Text = "Danh sách tài khoản";
+            this.tmiAccount.Click += new System.EventHandler(this.tmiAccount_Click);
             // 
             // gpbTable
             // 
-            this.gpbTable.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gpbTable.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.gpbTable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.gpbTable.Controls.Add(this.pnlTable);
             this.gpbTable.ForeColor = System.Drawing.Color.Black;
@@ -304,13 +311,14 @@
             this.gpbTable.TabIndex = 1;
             this.gpbTable.TabStop = false;
             this.gpbTable.Text = "Danh sách bàn";
+            this.gpbTable.SizeChanged += new System.EventHandler(this.gpbTable_SizeChanged);
             // 
             // pnlTable
             // 
             this.pnlTable.AllowDrop = true;
-            this.pnlTable.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlTable.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlTable.AutoScroll = true;
             this.pnlTable.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlTable.Location = new System.Drawing.Point(7, 28);
@@ -320,8 +328,8 @@
             // 
             // gpbBill
             // 
-            this.gpbBill.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gpbBill.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.gpbBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.gpbBill.Controls.Add(this.txtTotal);
             this.gpbBill.Controls.Add(this.txtSTT);
@@ -339,6 +347,7 @@
             this.gpbBill.TabIndex = 2;
             this.gpbBill.TabStop = false;
             this.gpbBill.Text = "Hóa đơn";
+            this.gpbBill.Enter += new System.EventHandler(this.gpbBill_Enter);
             // 
             // txtTotal
             // 
@@ -376,6 +385,7 @@
             this.btnPrint.Size = new System.Drawing.Size(33, 33);
             this.btnPrint.TabIndex = 15;
             this.btnPrint.UseVisualStyleBackColor = false;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // label6
             // 
@@ -400,14 +410,15 @@
             // 
             // pnlBill
             // 
-            this.pnlBill.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlBill.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlBill.AutoScroll = true;
             this.pnlBill.Location = new System.Drawing.Point(7, 85);
             this.pnlBill.Name = "pnlBill";
             this.pnlBill.Size = new System.Drawing.Size(357, 190);
             this.pnlBill.TabIndex = 9;
+            this.pnlBill.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBill_Paint);
             // 
             // label2
             // 
@@ -442,9 +453,9 @@
             // 
             // pnlCategory
             // 
-            this.pnlCategory.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlCategory.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlCategory.AutoScroll = true;
             this.pnlCategory.Location = new System.Drawing.Point(7, 28);
             this.pnlCategory.Name = "pnlCategory";
@@ -453,8 +464,8 @@
             // 
             // gpbFood
             // 
-            this.gpbFood.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gpbFood.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.gpbFood.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.gpbFood.Controls.Add(this.txtPriceFood);
             this.gpbFood.Controls.Add(this.txtNameFood);
@@ -504,9 +515,9 @@
             // 
             // pnlFood
             // 
-            this.pnlFood.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlFood.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlFood.AutoScroll = true;
             this.pnlFood.Location = new System.Drawing.Point(7, 81);
             this.pnlFood.Name = "pnlFood";
@@ -515,8 +526,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BackColor = System.Drawing.Color.Silver;
             this.groupBox1.Controls.Add(this.listBox1);
             this.groupBox1.Controls.Add(this.btnAddMedia);
@@ -542,8 +553,8 @@
             // 
             // listBox1
             // 
-            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 17;
             this.listBox1.Location = new System.Drawing.Point(376, 16);
@@ -562,6 +573,7 @@
             this.btnAddMedia.Size = new System.Drawing.Size(37, 39);
             this.btnAddMedia.TabIndex = 49;
             this.btnAddMedia.UseVisualStyleBackColor = true;
+            this.btnAddMedia.Click += new System.EventHandler(this.btnAddMedia_Click);
             // 
             // btnMediaList
             // 
@@ -573,12 +585,13 @@
             this.btnMediaList.Size = new System.Drawing.Size(37, 36);
             this.btnMediaList.TabIndex = 48;
             this.btnMediaList.UseVisualStyleBackColor = true;
+            this.btnMediaList.Click += new System.EventHandler(this.btnMedia_Click);
             // 
             // axWindowsMediaPlayer1
             // 
-            this.axWindowsMediaPlayer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.axWindowsMediaPlayer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.axWindowsMediaPlayer1.Enabled = true;
             this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(376, 24);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
@@ -588,8 +601,8 @@
             // 
             // btnPay
             // 
-            this.btnPay.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnPay.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnPay.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPay.BackgroundImage")));
             this.btnPay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -601,11 +614,12 @@
             this.btnPay.TabIndex = 45;
             this.btnPay.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPay.UseVisualStyleBackColor = false;
+            this.btnPay.Click += new System.EventHandler(this.btnPay_Click);
             // 
             // btnBlock
             // 
-            this.btnBlock.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnBlock.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.btnBlock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnBlock.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBlock.BackgroundImage")));
             this.btnBlock.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -615,11 +629,12 @@
             this.btnBlock.Size = new System.Drawing.Size(54, 50);
             this.btnBlock.TabIndex = 44;
             this.btnBlock.UseVisualStyleBackColor = false;
+            this.btnBlock.Click += new System.EventHandler(this.btnBlock_Click);
             // 
             // lblName
             // 
-            this.lblName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblName.ForeColor = System.Drawing.Color.Black;
             this.lblName.Location = new System.Drawing.Point(245, 106);
@@ -631,8 +646,8 @@
             // 
             // btnReturn
             // 
-            this.btnReturn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnReturn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.btnReturn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnReturn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnReturn.BackgroundImage")));
             this.btnReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -642,11 +657,12 @@
             this.btnReturn.Size = new System.Drawing.Size(55, 49);
             this.btnReturn.TabIndex = 42;
             this.btnReturn.UseVisualStyleBackColor = false;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // label11
             // 
-            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Black;
             this.label11.Location = new System.Drawing.Point(136, 108);
@@ -658,8 +674,8 @@
             // 
             // btnReplaceTable
             // 
-            this.btnReplaceTable.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnReplaceTable.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.btnReplaceTable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnReplaceTable.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnReplaceTable.BackgroundImage")));
             this.btnReplaceTable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -671,11 +687,12 @@
             this.btnReplaceTable.TabIndex = 35;
             this.btnReplaceTable.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnReplaceTable.UseVisualStyleBackColor = false;
+            this.btnReplaceTable.Click += new System.EventHandler(this.btnReplaceTable_Click);
             // 
             // label10
             // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(13, 111);
@@ -687,8 +704,8 @@
             // 
             // label9
             // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(242, 25);
@@ -700,8 +717,8 @@
             // 
             // btnPlusTable
             // 
-            this.btnPlusTable.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnPlusTable.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPlusTable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnPlusTable.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPlusTable.BackgroundImage")));
             this.btnPlusTable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -711,11 +728,12 @@
             this.btnPlusTable.Size = new System.Drawing.Size(55, 50);
             this.btnPlusTable.TabIndex = 36;
             this.btnPlusTable.UseVisualStyleBackColor = false;
+            this.btnPlusTable.Click += new System.EventHandler(this.btnPlusTable_Click);
             // 
             // label8
             // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(129, 25);
@@ -727,8 +745,8 @@
             // 
             // label7
             // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(15, 25);
@@ -740,8 +758,8 @@
             // 
             // btnAddFood
             // 
-            this.btnAddFood.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnAddFood.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.btnAddFood.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnAddFood.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAddFood.BackgroundImage")));
             this.btnAddFood.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -751,6 +769,7 @@
             this.btnAddFood.Size = new System.Drawing.Size(54, 50);
             this.btnAddFood.TabIndex = 33;
             this.btnAddFood.UseVisualStyleBackColor = false;
+            this.btnAddFood.Click += new System.EventHandler(this.btnAddFood_Click);
             // 
             // printDialog1
             // 
@@ -758,6 +777,7 @@
             // 
             // printDocument1
             // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
             // groupBox2
             // 
@@ -799,27 +819,27 @@
             // 
             // txtNameMan
             // 
-            this.txtNameMan.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtNameMan.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNameMan.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNameMan.Location = new System.Drawing.Point(7, 31);
             this.txtNameMan.Name = "txtNameMan";
             this.txtNameMan.Size = new System.Drawing.Size(349, 64);
             this.txtNameMan.TabIndex = 15;
-            this.txtNameMan.Text = "QUÁN CAFE BẤT ỔN";
+            this.txtNameMan.Text = "DU MIÊN";
             this.txtNameMan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtAdress
             // 
-            this.txtAdress.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtAdress.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.txtAdress.Font = new System.Drawing.Font("Magneto", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAdress.Location = new System.Drawing.Point(38, 106);
             this.txtAdress.Name = "txtAdress";
             this.txtAdress.Size = new System.Drawing.Size(311, 49);
             this.txtAdress.TabIndex = 14;
-            this.txtAdress.Text = "Địa chỉ: số 9 đường Nguyễn Huệ, Quận 1, TP HCM";
+            this.txtAdress.Text = "Địa chỉ: số 7 đường Phan Văn Trị, Phường 10, Q.Gò Vấp, TP.HCM";
             this.txtAdress.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // datetime
@@ -846,6 +866,7 @@
             this.cmnSubTable.Name = "cmnSubTable";
             this.cmnSubTable.Size = new System.Drawing.Size(158, 136);
             this.cmnSubTable.Text = "ONLINE";
+            this.cmnSubTable.Opening += new System.ComponentModel.CancelEventHandler(this.cmnSubTable_Opening);
             // 
             // tsmThemMon
             // 
@@ -853,6 +874,7 @@
             this.tsmThemMon.ShortcutKeys = System.Windows.Forms.Keys.F1;
             this.tsmThemMon.Size = new System.Drawing.Size(157, 22);
             this.tsmThemMon.Text = "Thêm món";
+            this.tsmThemMon.Click += new System.EventHandler(this.tsmThemMon_Click);
             // 
             // tsmTraMon
             // 
@@ -860,6 +882,7 @@
             this.tsmTraMon.ShortcutKeys = System.Windows.Forms.Keys.F2;
             this.tsmTraMon.Size = new System.Drawing.Size(157, 22);
             this.tsmTraMon.Text = "Trả món";
+            this.tsmTraMon.Click += new System.EventHandler(this.tsmTraMon_Click);
             // 
             // tsmThanhToan
             // 
@@ -867,6 +890,7 @@
             this.tsmThanhToan.ShortcutKeys = System.Windows.Forms.Keys.F3;
             this.tsmThanhToan.Size = new System.Drawing.Size(157, 22);
             this.tsmThanhToan.Text = "Thanh toán";
+            this.tsmThanhToan.Click += new System.EventHandler(this.tsmThanhToan_Click);
             // 
             // tsmChuyenBan
             // 
@@ -874,6 +898,7 @@
             this.tsmChuyenBan.ShortcutKeys = System.Windows.Forms.Keys.F4;
             this.tsmChuyenBan.Size = new System.Drawing.Size(157, 22);
             this.tsmChuyenBan.Text = "Chuyển bàn";
+            this.tsmChuyenBan.Click += new System.EventHandler(this.tsmChuyenBan_Click);
             // 
             // tsmGopBan
             // 
@@ -881,6 +906,7 @@
             this.tsmGopBan.ShortcutKeys = System.Windows.Forms.Keys.F5;
             this.tsmGopBan.Size = new System.Drawing.Size(157, 22);
             this.tsmGopBan.Text = "Gộp bàn";
+            this.tsmGopBan.Click += new System.EventHandler(this.tsmGopBan_Click);
             // 
             // tsmInTT
             // 
@@ -898,6 +924,7 @@
             this.cmnSubTable2.Name = "cmnSubTable";
             this.cmnSubTable2.Size = new System.Drawing.Size(177, 48);
             this.cmnSubTable2.Text = "TRONG";
+            this.cmnSubTable2.Opening += new System.ComponentModel.CancelEventHandler(this.cmnSubTable2_Opening);
             // 
             // tmsThemMon2
             // 
@@ -905,6 +932,7 @@
             this.tmsThemMon2.ShortcutKeys = System.Windows.Forms.Keys.F1;
             this.tmsThemMon2.Size = new System.Drawing.Size(176, 22);
             this.tmsThemMon2.Text = "Thêm món mới";
+            this.tmsThemMon2.Click += new System.EventHandler(this.tmsThemMon2_Click);
             // 
             // tsmDatBan
             // 
@@ -912,6 +940,7 @@
             this.tsmDatBan.ShortcutKeys = System.Windows.Forms.Keys.F11;
             this.tsmDatBan.Size = new System.Drawing.Size(176, 22);
             this.tsmDatBan.Text = "Đặt giữ bàn";
+            this.tsmDatBan.Click += new System.EventHandler(this.tsmDatBan_Click);
             // 
             // cmnSubTable3
             // 
@@ -921,6 +950,7 @@
             this.cmnSubTable3.Name = "cmnSubTable";
             this.cmnSubTable3.Size = new System.Drawing.Size(170, 26);
             this.cmnSubTable3.Text = "DATTRUOC";
+            this.cmnSubTable3.Opening += new System.ComponentModel.CancelEventHandler(this.cmnSubTable3_Opening);
             // 
             // tsmMoBan
             // 
@@ -928,6 +958,7 @@
             this.tsmMoBan.ShortcutKeys = System.Windows.Forms.Keys.F12;
             this.tsmMoBan.Size = new System.Drawing.Size(169, 22);
             this.tsmMoBan.Text = "Mở khóa bàn";
+            this.tsmMoBan.Click += new System.EventHandler(this.tsmMoBan_Click);
             // 
             // ofdMedia
             // 
@@ -948,9 +979,9 @@
             // 
             // lineShape1
             // 
-            this.lineShape1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lineShape1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.lineShape1.Name = "lineShape1";
             this.lineShape1.SelectionColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lineShape1.X1 = 10;
@@ -981,6 +1012,7 @@
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quán Cafe";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.gpbTable.ResumeLayout(false);

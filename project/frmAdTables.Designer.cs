@@ -134,6 +134,7 @@
             this.btnDelete.Size = new System.Drawing.Size(49, 40);
             this.btnDelete.TabIndex = 38;
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnEdit
             // 
@@ -147,6 +148,7 @@
             this.btnEdit.Size = new System.Drawing.Size(48, 45);
             this.btnEdit.TabIndex = 37;
             this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnAdd
             // 
@@ -160,6 +162,7 @@
             this.btnAdd.Size = new System.Drawing.Size(49, 43);
             this.btnAdd.TabIndex = 36;
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // lblText
             // 
@@ -196,6 +199,7 @@
             this.dgvResult.RowTemplate.Height = 24;
             this.dgvResult.Size = new System.Drawing.Size(453, 333);
             this.dgvResult.TabIndex = 11;
+            this.dgvResult.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvResult_CellContentClick);
             // 
             // frmAdTables
             // 
@@ -216,6 +220,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý danh sách bàn";
             this.TopMost = true;
+            this.Load += new System.EventHandler(this.frmAdTables_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResult)).EndInit();

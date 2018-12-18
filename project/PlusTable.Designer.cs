@@ -60,6 +60,7 @@
             this.btnAccept.Size = new System.Drawing.Size(82, 75);
             this.btnAccept.TabIndex = 14;
             this.btnAccept.UseVisualStyleBackColor = false;
+            this.btnAccept.Click += new System.EventHandler(this.btnAccept_Click);
             // 
             // groupBoxA
             // 
@@ -83,7 +84,7 @@
             this.label4.Location = new System.Drawing.Point(329, 82);
             this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(42, 18);
+            this.label4.Size = new System.Drawing.Size(53, 24);
             this.label4.TabIndex = 25;
             this.label4.Text = "VNĐ";
             // 
@@ -94,7 +95,7 @@
             this.label3.Location = new System.Drawing.Point(95, 82);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 18);
+            this.label3.Size = new System.Drawing.Size(60, 24);
             this.label3.TabIndex = 24;
             this.label3.Text = "Tổng:";
             // 
@@ -104,7 +105,7 @@
             this.txtTotalA.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTotalA.Location = new System.Drawing.Point(163, 82);
             this.txtTotalA.Name = "txtTotalA";
-            this.txtTotalA.Size = new System.Drawing.Size(158, 17);
+            this.txtTotalA.Size = new System.Drawing.Size(158, 21);
             this.txtTotalA.TabIndex = 23;
             this.txtTotalA.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -126,8 +127,9 @@
             this.cbbTableA.FormattingEnabled = true;
             this.cbbTableA.Location = new System.Drawing.Point(163, 36);
             this.cbbTableA.Name = "cbbTableA";
-            this.cbbTableA.Size = new System.Drawing.Size(219, 25);
+            this.cbbTableA.Size = new System.Drawing.Size(219, 30);
             this.cbbTableA.TabIndex = 21;
+            this.cbbTableA.TextChanged += new System.EventHandler(this.cbbTableA_TextChanged);
             // 
             // label1
             // 
@@ -136,7 +138,7 @@
             this.label1.Location = new System.Drawing.Point(80, 39);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 18);
+            this.label1.Size = new System.Drawing.Size(75, 24);
             this.label1.TabIndex = 20;
             this.label1.Text = "Số bàn:";
             // 
@@ -162,7 +164,7 @@
             this.label2.Location = new System.Drawing.Point(331, 82);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 18);
+            this.label2.Size = new System.Drawing.Size(53, 24);
             this.label2.TabIndex = 25;
             this.label2.Text = "VNĐ";
             // 
@@ -173,7 +175,7 @@
             this.label5.Location = new System.Drawing.Point(95, 82);
             this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 18);
+            this.label5.Size = new System.Drawing.Size(60, 24);
             this.label5.TabIndex = 24;
             this.label5.Text = "Tổng:";
             // 
@@ -183,7 +185,7 @@
             this.txtTotalB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTotalB.Location = new System.Drawing.Point(163, 82);
             this.txtTotalB.Name = "txtTotalB";
-            this.txtTotalB.Size = new System.Drawing.Size(160, 17);
+            this.txtTotalB.Size = new System.Drawing.Size(160, 21);
             this.txtTotalB.TabIndex = 23;
             this.txtTotalB.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -205,8 +207,9 @@
             this.cbbTableB.FormattingEnabled = true;
             this.cbbTableB.Location = new System.Drawing.Point(163, 36);
             this.cbbTableB.Name = "cbbTableB";
-            this.cbbTableB.Size = new System.Drawing.Size(221, 25);
+            this.cbbTableB.Size = new System.Drawing.Size(221, 30);
             this.cbbTableB.TabIndex = 21;
+            this.cbbTableB.TextChanged += new System.EventHandler(this.cbbTableB_TextChanged);
             // 
             // label6
             // 
@@ -215,14 +218,14 @@
             this.label6.Location = new System.Drawing.Point(80, 39);
             this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 18);
+            this.label6.Size = new System.Drawing.Size(75, 24);
             this.label6.TabIndex = 20;
             this.label6.Text = "Từ bàn:";
             // 
             // PlusTable
             // 
             this.AcceptButton = this.btnAccept;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(926, 472);

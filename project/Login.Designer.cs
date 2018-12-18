@@ -67,6 +67,7 @@
             resources.ApplyResources(this.btnLogin, "btnLogin");
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // rdbAdmin
             // 
@@ -90,6 +91,7 @@
             resources.ApplyResources(this.btnThoat, "btnThoat");
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.UseVisualStyleBackColor = false;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // frmLogin
             // 
@@ -109,6 +111,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmLogin";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

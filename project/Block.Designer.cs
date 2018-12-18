@@ -76,7 +76,7 @@
             this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(119, 104);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(166, 30);
+            this.label3.Size = new System.Drawing.Size(199, 36);
             this.label3.TabIndex = 10;
             this.label3.Text = "Vui lòng nhập mật khẩu trước\r\n\r\n";
             // 
@@ -88,7 +88,7 @@
             this.label2.Location = new System.Drawing.Point(10, 75);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 18);
+            this.label2.Size = new System.Drawing.Size(100, 24);
             this.label2.TabIndex = 9;
             this.label2.Text = "Mật khẩu:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -99,8 +99,10 @@
             this.txtMatKhau.Location = new System.Drawing.Point(122, 73);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PasswordChar = '*';
-            this.txtMatKhau.Size = new System.Drawing.Size(205, 24);
+            this.txtMatKhau.Size = new System.Drawing.Size(205, 28);
             this.txtMatKhau.TabIndex = 8;
+            this.txtMatKhau.TextChanged += new System.EventHandler(this.txtMatKhau_TextChanged);
+            this.txtMatKhau.Leave += new System.EventHandler(this.txtMatKhau_Leave);
             // 
             // label1
             // 
@@ -110,7 +112,7 @@
             this.label1.Location = new System.Drawing.Point(10, 32);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 18);
+            this.label1.Size = new System.Drawing.Size(100, 24);
             this.label1.TabIndex = 7;
             this.label1.Text = "Xin chào:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -123,14 +125,14 @@
             this.lblName.Location = new System.Drawing.Point(118, 32);
             this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(52, 18);
+            this.lblName.Size = new System.Drawing.Size(65, 24);
             this.lblName.TabIndex = 6;
             this.lblName.Text = "Name";
             this.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Block
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(908, 620);
@@ -147,6 +149,7 @@
             this.Text = "Khóa";
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Leave += new System.EventHandler(this.Block_Leave);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbErr)).EndInit();

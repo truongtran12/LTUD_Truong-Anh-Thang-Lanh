@@ -161,25 +161,82 @@ C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\CoffeShopManagement.csproj.Co
 C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\CoffeShopManagement.csproj.CopyComplete
 C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.exe
 C:\Users\truong\Desktop\DoAn\project\obj\x86\Debug\project.pdb
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\CoffeShopManagement.csprojAssemblyReference.cache
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\Interop.WMPLib.dll
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\AxInterop.WMPLib.dll
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\CoffeShopManagement.csproj.ResolveComReference.cache
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmAdAccount.resources
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmAddFood.resources
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.Block.resources
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.ChangePersional.resources
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmAdCategory.resources
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmAdFood.resources
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmAdTables.resources
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmLogin.resources
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmMain.resources
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.frmPay.resources
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.PlusTable.resources
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.Properties.Resources.resources
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.ReFood.resources
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.ReplaceTable.resources
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\CoffeShopManagement.csproj.GenerateResource.cache
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\CoffeShopManagement.csproj.CoreCompileInputs.cache
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.exe
-C:\Users\truong\Downloads\Documents\LTUD_Truong-Anh-Thang-Lanh\project\obj\x86\Debug\project.pdb
+C:\Users\truong\Desktop\DoAn1\project\bin\Debug\project.exe.config
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\CoffeShopManagement.csproj.ResolveComReference.cache
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.exe
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.pdb
+C:\Users\truong\Desktop\DoAn1\project\bin\Debug\project.exe
+C:\Users\truong\Desktop\DoAn1\project\bin\Debug\project.pdb
+C:\Users\truong\Desktop\DoAn1\project\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\truong\Desktop\DoAn1\project\bin\Debug\Interop.WMPLib.dll
+C:\Users\truong\Desktop\DoAn1\project\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\CoffeShopManagement.csprojResolveAssemblyReference.cache
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.frmAdAccount.resources
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.frmAddFood.resources
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.Block.resources
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.ChangePersional.resources
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.frmAdCategory.resources
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.frmAdFood.resources
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.frmAdTables.resources
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.frmLogin.resources
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.frmMain.resources
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.frmPay.resources
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.PlusTable.resources
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.Properties.Resources.resources
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.ReFood.resources
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\project.ReplaceTable.resources
+C:\Users\truong\Desktop\DoAn1\project\obj\x86\Debug\CoffeShopManagement.csproj.GenerateResource.Cache
+C:\Users\PHAN ANH\Desktop\DoAn1\project\bin\Debug\project.exe.config
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\CoffeShopManagement.csproj.ResolveComReference.cache
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.exe
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.pdb
+C:\Users\PHAN ANH\Desktop\DoAn1\project\bin\Debug\project.exe
+C:\Users\PHAN ANH\Desktop\DoAn1\project\bin\Debug\project.pdb
+C:\Users\PHAN ANH\Desktop\DoAn1\project\bin\Debug\Interop.WMPLib.dll
+C:\Users\PHAN ANH\Desktop\DoAn1\project\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\CoffeShopManagement.csprojResolveAssemblyReference.cache
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.frmAdAccount.resources
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.frmAddFood.resources
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.Block.resources
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.ChangePersional.resources
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.frmAdCategory.resources
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.frmAdFood.resources
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.frmAdTables.resources
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.frmLogin.resources
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.frmMain.resources
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.frmPay.resources
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.PlusTable.resources
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.Properties.Resources.resources
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.ReFood.resources
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\project.ReplaceTable.resources
+C:\Users\PHAN ANH\Desktop\DoAn1\project\obj\x86\Debug\CoffeShopManagement.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\bin\Debug\project.exe.config
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\CoffeShopManagement.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.exe
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.pdb
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\bin\Debug\project.exe
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\bin\Debug\project.pdb
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\bin\Debug\Interop.WMPLib.dll
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\CoffeShopManagement.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.frmAdAccount.resources
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.frmAddFood.resources
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.Block.resources
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.ChangePersional.resources
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.frmAdCategory.resources
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.frmAdFood.resources
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.frmAdTables.resources
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.frmLogin.resources
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.frmMain.resources
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.frmPay.resources
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.PlusTable.resources
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.Properties.Resources.resources
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.ReFood.resources
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\project.ReplaceTable.resources
+C:\Users\Administrator\Desktop\c#_project\DoAn1\project\obj\x86\Debug\CoffeShopManagement.csproj.GenerateResource.Cache

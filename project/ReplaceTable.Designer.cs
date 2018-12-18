@@ -72,7 +72,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label5.Location = new System.Drawing.Point(188, 325);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(132, 20);
+            this.label5.Size = new System.Drawing.Size(165, 25);
             this.label5.TabIndex = 20;
             this.label5.Text = "Xác nhận chuyển";
             // 
@@ -87,6 +87,7 @@
             this.btnAccept.Size = new System.Drawing.Size(49, 41);
             this.btnAccept.TabIndex = 16;
             this.btnAccept.UseVisualStyleBackColor = false;
+            this.btnAccept.Click += new System.EventHandler(this.btnAccept_Click);
             // 
             // label4
             // 
@@ -94,7 +95,7 @@
             this.label4.Location = new System.Drawing.Point(344, 70);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 20);
+            this.label4.Size = new System.Drawing.Size(57, 25);
             this.label4.TabIndex = 19;
             this.label4.Text = "VNĐ";
             // 
@@ -105,7 +106,7 @@
             this.label3.Location = new System.Drawing.Point(52, 66);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 24);
+            this.label3.Size = new System.Drawing.Size(76, 29);
             this.label3.TabIndex = 18;
             this.label3.Text = "Tổng:";
             // 
@@ -116,7 +117,7 @@
             this.txtTotal.Location = new System.Drawing.Point(134, 70);
             this.txtTotal.Margin = new System.Windows.Forms.Padding(2);
             this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(204, 19);
+            this.txtTotal.Size = new System.Drawing.Size(204, 23);
             this.txtTotal.TabIndex = 17;
             // 
             // dgvTableFrom
@@ -139,8 +140,9 @@
             this.cbbTableTo.Location = new System.Drawing.Point(134, 366);
             this.cbbTableTo.Margin = new System.Windows.Forms.Padding(2);
             this.cbbTableTo.Name = "cbbTableTo";
-            this.cbbTableTo.Size = new System.Drawing.Size(267, 28);
+            this.cbbTableTo.Size = new System.Drawing.Size(267, 33);
             this.cbbTableTo.TabIndex = 13;
+            this.cbbTableTo.TextChanged += new System.EventHandler(this.cbbTableTo_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -149,7 +151,7 @@
             this.label2.Location = new System.Drawing.Point(22, 366);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 24);
+            this.label2.Size = new System.Drawing.Size(109, 29);
             this.label2.TabIndex = 12;
             this.label2.Text = "Đến bàn:";
             // 
@@ -161,8 +163,9 @@
             this.cbbTableFrom.Location = new System.Drawing.Point(134, 27);
             this.cbbTableFrom.Margin = new System.Windows.Forms.Padding(2);
             this.cbbTableFrom.Name = "cbbTableFrom";
-            this.cbbTableFrom.Size = new System.Drawing.Size(267, 28);
+            this.cbbTableFrom.Size = new System.Drawing.Size(267, 33);
             this.cbbTableFrom.TabIndex = 11;
+            this.cbbTableFrom.TextChanged += new System.EventHandler(this.cbbTableFrom_TextChanged);
             // 
             // label1
             // 
@@ -171,14 +174,14 @@
             this.label1.Location = new System.Drawing.Point(34, 27);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 24);
+            this.label1.Size = new System.Drawing.Size(94, 29);
             this.label1.TabIndex = 10;
             this.label1.Text = "Từ bàn:";
             // 
             // ReplaceTable
             // 
             this.AcceptButton = this.btnAccept;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(438, 431);

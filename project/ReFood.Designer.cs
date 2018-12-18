@@ -79,6 +79,7 @@
             this.btnAccept.Size = new System.Drawing.Size(59, 51);
             this.btnAccept.TabIndex = 26;
             this.btnAccept.UseVisualStyleBackColor = false;
+            this.btnAccept.Click += new System.EventHandler(this.btnAccept_Click);
             // 
             // cbbCountReF
             // 
@@ -162,6 +163,7 @@
             this.cbbFood.Name = "cbbFood";
             this.cbbFood.Size = new System.Drawing.Size(288, 25);
             this.cbbFood.TabIndex = 27;
+            this.cbbFood.TextChanged += new System.EventHandler(this.cbbFood_TextChanged);
             // 
             // label2
             // 
@@ -214,6 +216,7 @@
             this.cbbTable.Name = "cbbTable";
             this.cbbTable.Size = new System.Drawing.Size(302, 25);
             this.cbbTable.TabIndex = 21;
+            this.cbbTable.TextChanged += new System.EventHandler(this.cbbTable_TextChanged);
             // 
             // label1
             // 
@@ -225,6 +228,7 @@
             this.label1.Size = new System.Drawing.Size(59, 18);
             this.label1.TabIndex = 20;
             this.label1.Text = "Số bàn:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // ReFood
             // 

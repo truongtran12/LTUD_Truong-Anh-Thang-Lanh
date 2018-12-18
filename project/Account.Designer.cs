@@ -81,7 +81,7 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label6.Location = new System.Drawing.Point(432, 148);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(34, 18);
+            this.label6.Size = new System.Drawing.Size(43, 24);
             this.label6.TabIndex = 20;
             this.label6.Text = "Sửa";
             // 
@@ -92,7 +92,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label5.Location = new System.Drawing.Point(430, 93);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 18);
+            this.label5.Size = new System.Drawing.Size(45, 24);
             this.label5.TabIndex = 19;
             this.label5.Text = "Xóa";
             // 
@@ -103,7 +103,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label4.Location = new System.Drawing.Point(414, 38);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 18);
+            this.label4.Size = new System.Drawing.Size(60, 24);
             this.label4.TabIndex = 18;
             this.label4.Text = "Thêm";
             // 
@@ -119,6 +119,7 @@
             this.btnEdit.Size = new System.Drawing.Size(52, 49);
             this.btnEdit.TabIndex = 17;
             this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnDelete
             // 
@@ -132,6 +133,7 @@
             this.btnDelete.Size = new System.Drawing.Size(52, 49);
             this.btnDelete.TabIndex = 16;
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // ckbAdmin
             // 
@@ -139,7 +141,7 @@
             this.ckbAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.ckbAdmin.Location = new System.Drawing.Point(144, 156);
             this.ckbAdmin.Name = "ckbAdmin";
-            this.ckbAdmin.Size = new System.Drawing.Size(82, 22);
+            this.ckbAdmin.Size = new System.Drawing.Size(103, 28);
             this.ckbAdmin.TabIndex = 4;
             this.ckbAdmin.Text = "Quản Lý";
             this.ckbAdmin.UseVisualStyleBackColor = true;
@@ -150,7 +152,7 @@
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtPassword.Location = new System.Drawing.Point(144, 114);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(234, 26);
+            this.txtPassword.Size = new System.Drawing.Size(234, 30);
             this.txtPassword.TabIndex = 3;
             // 
             // txtUsername
@@ -159,7 +161,7 @@
             this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtUsername.Location = new System.Drawing.Point(144, 33);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(234, 26);
+            this.txtUsername.Size = new System.Drawing.Size(234, 30);
             this.txtUsername.TabIndex = 1;
             // 
             // label3
@@ -169,7 +171,7 @@
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label3.Location = new System.Drawing.Point(38, 119);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 18);
+            this.label3.Size = new System.Drawing.Size(91, 24);
             this.label3.TabIndex = 15;
             this.label3.Text = "Mật khẩu:";
             // 
@@ -180,7 +182,7 @@
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label2.Location = new System.Drawing.Point(30, 38);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 18);
+            this.label2.Size = new System.Drawing.Size(98, 24);
             this.label2.TabIndex = 14;
             this.label2.Text = "Tài khoản:";
             // 
@@ -190,7 +192,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.Location = new System.Drawing.Point(10, 78);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 18);
+            this.label1.Size = new System.Drawing.Size(115, 24);
             this.label1.TabIndex = 13;
             this.label1.Text = "Tên hiển thị:";
             // 
@@ -200,7 +202,7 @@
             this.txtDisplayname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtDisplayname.Location = new System.Drawing.Point(144, 73);
             this.txtDisplayname.Name = "txtDisplayname";
-            this.txtDisplayname.Size = new System.Drawing.Size(234, 26);
+            this.txtDisplayname.Size = new System.Drawing.Size(234, 30);
             this.txtDisplayname.TabIndex = 2;
             // 
             // btnAdd
@@ -215,6 +217,7 @@
             this.btnAdd.Size = new System.Drawing.Size(52, 49);
             this.btnAdd.TabIndex = 5;
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // dgvResult
             // 
@@ -230,10 +233,11 @@
             this.dgvResult.RowTemplate.Height = 24;
             this.dgvResult.Size = new System.Drawing.Size(556, 366);
             this.dgvResult.TabIndex = 17;
+            this.dgvResult.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvResult_CellContentClick);
             // 
             // frmAdAccount
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(580, 606);
@@ -250,7 +254,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý tài khoản";
             this.TopMost = true;
-            this.Load += new System.EventHandler(this.frmAdAccount_Load);
+            this.Load += new System.EventHandler(this.Account_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResult)).EndInit();

@@ -71,6 +71,7 @@
             this.btnAdd.Size = new System.Drawing.Size(42, 41);
             this.btnAdd.TabIndex = 4;
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // dgvResult
             // 
@@ -86,6 +87,7 @@
             this.dgvResult.RowTemplate.Height = 24;
             this.dgvResult.Size = new System.Drawing.Size(520, 341);
             this.dgvResult.TabIndex = 7;
+            this.dgvResult.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvResult_CellContentClick);
             // 
             // groupBox1
             // 
@@ -159,6 +161,7 @@
             this.button2.Size = new System.Drawing.Size(42, 41);
             this.button2.TabIndex = 17;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnDelete
             // 
@@ -172,6 +175,7 @@
             this.btnDelete.Size = new System.Drawing.Size(42, 41);
             this.btnDelete.TabIndex = 16;
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // label3
             // 
@@ -271,6 +275,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản Lý Món";
             this.TopMost = true;
+            this.Load += new System.EventHandler(this.frmAdFood_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvResult)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

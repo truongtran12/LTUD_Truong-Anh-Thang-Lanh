@@ -58,7 +58,6 @@
             resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
-            
             // 
             // txtSTT
             // 
@@ -76,11 +75,13 @@
             resources.ApplyResources(this.btnAdd, "btnAdd");
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // lbl1
             // 
             resources.ApplyResources(this.lbl1, "lbl1");
             this.lbl1.Name = "lbl1";
+            this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
             // 
             // cbbCount
             // 
